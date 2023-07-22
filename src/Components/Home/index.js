@@ -4,7 +4,6 @@ import ModalDiv from "../Modal/index.js";
 import Nav from "../Navbar/index.js";
 import SingleNote from "../SingleNotes/index.js";
 import "./Styles.css";
-import Modal from "../Modal/modal.js";
 const Home = () => {
   const [data, setData] = useState([]);
   const [showModal, setShowModal] = useState(false);
